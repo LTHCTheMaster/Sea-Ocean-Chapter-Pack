@@ -1,0 +1,46 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:cod"
+      },
+      "title": "A Fish Party",
+      "description": "Get a stack of cod for a big reward",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "lthc.chapter.nature.sea_ocean:sequel/next",
+    "criteria": {
+      "unlock": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "lthc.chapter.nature.sea_ocean:sequel/next": true
+                  }
+                }
+              }
+            }
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:cod"
+              ],
+              "count": 64
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "experience": 750,
+      "function": "lthc.chapter.nature.sea_ocean:end_reward"
+    }
+  }

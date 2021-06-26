@@ -1,0 +1,1 @@
+give @s barrel{display:{Name:'{"text":"Sea Ocean","color":"dark_red","bold":true,"italic":false,"underlined":true}'},BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:cod",Count:64b},{Slot:8b,id:"minecraft:dried_kelp_block",Count:64b},{Slot:18b,id:"minecraft:dried_kelp_block",Count:64b},{Slot:26b,id:"minecraft:cod",Count:64b}]}} 1
